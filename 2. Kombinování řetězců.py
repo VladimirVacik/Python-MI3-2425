@@ -24,7 +24,7 @@ print("\nAnalýza je uložena ve složce:\t");
 #Doslovný řetězec
 #Doslovný řetězec zachovává všechny mezery a znaky bez nutnosti použít řídicí znak (zpětné lomítko).
 #Pro použití doslovného řetězce použijeme znak "r" před uvozovkami.
-print(r"    C:\souerce\repos\
+print(r"    C:\users\Karel\Dokumenty\Analýzy\
       (sem patří tvůj kod)")
 
 #Řídicí znaky Unicode
