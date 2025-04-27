@@ -13,3 +13,8 @@ print(zprava) #výstup celého jména
 celeJmeno = f"{jmeno} {prijmeni}"
 print(celeJmeno) #výstup celého jména
 print(f"Celé jméno je {jmeno} {prijmeni}.") #výstup celého jména
+
+# existuje i možnost využít indexy proměnných v interpolaci
+# je to ale zbytečné, protože máme proměnné pojmenované
+# a můžeme je použít přímo v interpolaci 
+print(f"Celé jméno je {0} {1}.".format(jmeno, prijmeni))
