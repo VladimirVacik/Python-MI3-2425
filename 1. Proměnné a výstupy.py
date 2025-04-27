@@ -1,1 +1,1 @@
-print ("První výstup") #
+print ("První výstup") #ukázka výstupu
