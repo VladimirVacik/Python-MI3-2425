@@ -1,3 +1,4 @@
+# Kombinování řetězců pomocí řídicích sekvencí znaků
 # Řídící sekvence znaků pomocí znaku \ se používají pro speciální znaky, které nemůžeme napsat přímo do textu, nebo pro úpravu textu
 # například:
 # \ - zpětné lomítko, které říká, že následující znak má speciální význam, dá se použít na konci řádku pro pokračování na dalším řádku
