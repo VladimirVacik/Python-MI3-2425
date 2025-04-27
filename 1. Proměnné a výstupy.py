@@ -8,8 +8,14 @@ nadvaha = True #proměnná typu bool - logická hodnota místo true/false může
 jmeno = "Petr" #proměnná typu str - řetězec
 bmi = None #deklarace proměnné bez inicializace, proměnná typu NoneType - žádná hodnota
 
+print (bmi) #výstup
 bmi= vaha / ((vyska / 100) ** 2) #výpočet BMI
-print (f"Jméno: {jmeno}, věk: {vek}, výška: {vyska}, váha: {vaha}, nadváha: {nadvaha}, BMI: {bmi}") #výstup pomocí f-stringu
+print (vek) #výstup
+print (vyska) #výstup
+print (vaha) #výstup
+print (nadvaha) #výstup
+print (jmeno) #výstup
+print (bmi) #výstup
 
 #staticé proměnné pomocí hints
 vek1: int = 25 #proměnná typu int - celé číslo
