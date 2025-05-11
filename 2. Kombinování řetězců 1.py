@@ -24,9 +24,13 @@ print("\nAnalýza je uložena ve složce:\t");
 
 #Doslovný řetězec
 #Doslovný řetězec zachovává všechny mezery a znaky bez nutnosti použít řídicí znak (zpětné lomítko).
-#Pro použití doslovného řetězce použijeme znak "r" před uvozovkami.
+#Pro použití doslovného řetězce použijeme znak "r" před uvozovkami. Ten neumožňuje použití Enteru pro nový řádek, jako u jiných programovacích jazyků.
 print(r"    C:\users\Karel\Dokumenty\Analýzy\
       (sem patří tvůj kod)")
+
+#Pro použití doslovného řetězce použijeme znak tři uvozovky místo jednich """. Ten umožňuje použití Enteru pro nový řádek.
+print(r"""C:\users\Karel\Dokumenty\Analýzy\
+      (sem patří tvůj kod)""")
 
 #Řídicí znaky Unicode
 #Pomocí Unicode můžeme použít znaky, které nejsou na klávesnici.
